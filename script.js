@@ -8,7 +8,7 @@ window.onload = function () {
         opacity: 0,
         scale: 0.5,
     });
-    
+
     gsap.from("#heroTitle", {
         duration: 1,
         ease: "power2.in",
@@ -16,7 +16,7 @@ window.onload = function () {
         scale: 0.8,
         delay: 1.8,
     });
-    
+
     gsap.to(".scroll-svg", {
         rotation: 360,
         duration: 15,
@@ -25,19 +25,20 @@ window.onload = function () {
         scale: 0.8,
         opacity: 0.3,
     });
-    
+
     gsap.from("#steps", {
         scale: 0.8,
         opacity:0,
         ease: "power7.in",
         scrollTrigger: {
             trigger: "#introText",
-            start: "top 90%", // when the top of the element is 80% from the top of the viewport
-            end: "bottom 20%", // when the bottom of the element is 20% from the top of the viewport
+            start: "top 90%",
+            end: "bottom 20%",
             toggleActions: "play none none none"
         },
         duration: 1
     });
+
     gsap.from("#introText", {
         scale: 0.8,
         opacity:0,
@@ -45,12 +46,13 @@ window.onload = function () {
         delay: 0.5,
         scrollTrigger: {
             trigger: "#introText",
-            start: "top 90%", // when the top of the element is 80% from the top of the viewport
-            end: "bottom 20%", // when the bottom of the element is 20% from the top of the viewport
+            start: "top 90%",
+            end: "bottom 20%",
             toggleActions: "play none none none"
         },
         duration: 1
     });
+
     gsap.from("#roomCarousel", {
         scale: 0.8,
         opacity:0,
@@ -58,8 +60,8 @@ window.onload = function () {
         delay: 0.5,
         scrollTrigger: {
             trigger: "#roomCarousel",
-            start: "top 90%", // when the top of the element is 80% from the top of the viewport
-            end: "bottom 20%", // when the bottom of the element is 20% from the top of the viewport
+            start: "top 90%",
+            end: "bottom 20%",
             toggleActions: "play none none none"
         },
         duration: 1
@@ -83,6 +85,10 @@ window.onload = function () {
     });
 };
 
+function toggleNav() {
+    const navItems = document.querySelector('.nav-items');
+    navItems.classList.toggle('show');
+}
 
 //ROOM CAROUSEL
 
