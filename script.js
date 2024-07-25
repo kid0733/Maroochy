@@ -19,11 +19,12 @@ window.onload = function () {
 
     gsap.to(".scroll-svg", {
         rotation: 360,
-        duration: 15,
+        duration: 5,
         repeat: -1,
-        ease: "power1.in",
+        ease: "power1.inOut",
         scale: 0.8,
-        opacity: 0.3,
+        yoyo: true,
+
     });
 
     gsap.from("#steps", {
@@ -46,6 +47,19 @@ window.onload = function () {
         delay: 0.5,
         scrollTrigger: {
             trigger: "#introText",
+            start: "top 90%",
+            end: "bottom 20%",
+            toggleActions: "play none none none"
+        },
+        duration: 1
+    });
+    gsap.from("#infoText", {
+        scale: 0.8,
+        opacity:0,
+        ease: "power7.in",
+        delay: 0.5,
+        scrollTrigger: {
+            trigger: "#infoText",
             start: "top 90%",
             end: "bottom 20%",
             toggleActions: "play none none none"
@@ -90,7 +104,7 @@ function toggleNav() {
     navItems.classList.toggle('show');
 }
 
-//ROOM CAROUSEL
+// Carousel
 
 document.addEventListener('DOMContentLoaded', () => {
     const roomIntroSliderInner = document.querySelector('.room-intro-slider-inner');

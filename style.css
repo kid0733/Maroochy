@@ -152,14 +152,13 @@
     max-width: 100px;
     /* Adjust the size as needed */
     height: auto;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 /*InfoSection*/
 .steps {
     background-image: url("assets/steps.svg");
 }
-
 /* ROOM INTRO */
 .room-intro-slider {
     overflow: hidden;
