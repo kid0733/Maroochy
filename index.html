@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Maroochy Sands</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,166 +8,709 @@
     <meta name="keywords" content="example, awesome, web page" />
     <meta property="og:title" content="Maroochy" />
     <meta property="og:description" content="Maroochy Sands" />
-    <meta property="og:image"
-        content="https://anai-qkkmajrefx5hn8hsgjn4-assets.s3.ap-southeast-2.amazonaws.com/R4WD5hMCiU8RzIehMKc0.png" />
-    <link rel="icon"
-        href="https://anai-qkkmajrefx5hn8hsgjn4-assets.s3.ap-southeast-2.amazonaws.com/R4WD5hMCiU8RzIehMKc0.png"
-        type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta
+      property="og:image"
+      content="https://anai-qkkmajrefx5hn8hsgjn4-assets.s3.ap-southeast-2.amazonaws.com/R4WD5hMCiU8RzIehMKc0.png"
+    />
+    <link
+      rel="icon"
+      href="https://anai-qkkmajrefx5hn8hsgjn4-assets.s3.ap-southeast-2.amazonaws.com/R4WD5hMCiU8RzIehMKc0.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"
+      defer
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!-- NAVBAR -->
     <div class="nav-container">
-        <button class="hamburger" onclick="toggleNav()">☰</button>
-        <ul class="nav-items">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">Book Now</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Room Types</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
+      <button class="hamburger" onclick="toggleNav()">☰</button>
+      <ul class="nav-items">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">Book Now</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Room Types</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
     </div>
 
     <div class="min-h-[100vh] max-w-[100vw] hero">
-        <div class="hero-content">
-            <p class="text-[6vh] spinnaker font-bold sand01" id="heroSubtitle">EXPERIENCE</p>
-            <div class="text-[10vh] mt-[5vh] spinnaker font-bold sand05" id="heroTitle">
-                <p>MAROOCHY</p>
-                <p class="text-[7vh]">SANDS</p>
-            </div>
-            <div class="svg-container">
-                <img src="assets/scrollSvg.svg" alt="Scroll SVG" class="scroll-svg" />
-            </div>
+      <div class="hero-content">
+        <p class="text-[6vh] spinnaker font-bold sand01" id="heroSubtitle">
+          EXPERIENCE
+        </p>
+        <div
+          class="text-[10vh] mt-[5vh] spinnaker font-bold sand05"
+          id="heroTitle"
+        >
+          <p>MAROOCHY</p>
+          <p class="text-[7vh]">SANDS</p>
         </div>
+        <div class="svg-container">
+          <img src="assets/scrollSvg.svg" alt="Scroll SVG" class="scroll-svg" />
+        </div>
+      </div>
     </div>
     <!-- INTRO-TEXT -->
-    <div class="min-h-[30vh] bg-white flex flex-col justify-center items-center">
-        <div class="w-4/5 p-[5vh] lines opacity-60 steps" id="steps">
-            <p class="text-[3vh] text-center spinnaker sand09 font-bold" id="introText">Steps from Maroochydore Beach
-                and Cotton Tree village, our location is at the heart of Maroochydore and Alexandra Headland.</p>
+    <div
+      class="min-h-[30vh] bg-white flex flex-col justify-center items-center"
+    >
+      <div class="w-4/5 p-[5vh] lines opacity-60 steps" id="steps">
+        <p
+          class="text-[3vh] text-center spinnaker sand09 font-bold"
+          id="introText"
+        >
+          Steps from Maroochydore Beach and Cotton Tree village, our location is
+          at the heart of Maroochydore and Alexandra Headland.
+        </p>
+      </div>
+    </div>
+    <!-- INTRO GALLERY -->
+    <div class="gallery-container ml-auto mr-auto">
+      <div class="gallery-item">
+        <img src="assets/Maroochy-002.png" alt="Design and Construction" />
+        <div class="gallery-caption">
+          <h3>Design and Construction</h3>
+          <p>01 &#8594;</p>
         </div>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/Maroochy-002.png" alt="Real Estate Development" />
+        <div class="gallery-caption">
+          <h3>Real Estate Development</h3>
+          <p>02 &#8594;</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/Maroochy-002.png" alt="Investment Management" />
+        <div class="gallery-caption">
+          <h3>Investment Management</h3>
+          <p>03 &#8594;</p>
+        </div>
+      </div>
     </div>
     <!-- ROOM INTRO CAROUSEL -->
-    <div class="min-h-[100vh] bg-white flex flex-col justify-center items-center overflow-hidden">
-        <div class="flex flex-col flex-1 w-[90vw] z-10 items-center justify-flex-start pt-[5vh] min-h-full my-[5vh] rounded-[2vh] overflow-hidden"
-            id="roomCarousel">
-            <div id="imgCarouselText2">
-                <p class="text-[5vh] leading-[5vh] font-bold text-black text-center max-w-[100vw] p-10 spinnaker">Our
-                    Rooms</p>
-                <p class="text-[2vh] leading-[3vh] font-regular text-black text-center max-w-[100vw] p-10 spinnaker">
-                    Discover our exclusive
-                    collection of website templates, each designed to elevate your online presence with style and
-                    functionality. Perfect for businesses, personal blogs, or creative portfolios, these templates
-                    will make your site stand out.
-                </p>
-            </div>
-            <!-- CAROUSEL SLIDER -->
-            <div class="room-intro-slider bg-[#211c16] max-w-[85vw] rounded-[2vh]" id="room_intro_slider_container">
-                <div class="room-intro-slider-inner">
-                    <!-- CAROUSEL ITEM 1 -->
-                    <div class="room-intro-slider-item">
-                        <div class="room-intro-text-container">
-                            <h2 class="room-intro-title sand05 text-[4.8vh]">
-                                Great Value <span class="sand05">Budget Accommodation</span>
-                            </h2>
-                            <div>
-                                <button class="button spinnaker mb-[2vh]">Book Now</button>
-                            </div>
-                            <p class="room-intro-description">
-                                Our standard units have been partially renovated and feature the same amazing ocean
-                                views.
-                                All are clean tidy and comfortable.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="assets/BUDGET-001.jpg" alt="Smart Website Builder"
-                                class="room-intro-img h-[40vh] w-[40vw]" />
-                        </div>
-                    </div>
-                    <!-- CAROUSEL ITEM 2 -->
-                    <div class="room-intro-slider-item">
-                        <div class="room-intro-text-container">
-                            <h2 class="room-intro-title sand05 text-[4.8vh]">
-                                Great Value <span class="sand05">Budget Accommodation</span>
-                            </h2>
-                            <div>
-                                <button class="button spinnaker mb-[2vh]">Book Now</button>
-                            </div>
-                            <p class="room-intro-description">
-                                Our standard units have been partially renovated and feature the same amazing ocean
-                                views.
-                                All are clean tidy and comfortable.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="assets/BUDGET-001.jpg" alt="Smart Website Builder"
-                                class="room-intro-img h-[40vh] w-[40vw]" />
-                        </div>
-                    </div>
-                    <!-- CAROUSEL ITEM 3 -->
-                    <div class="room-intro-slider-item">
-                        <div class="room-intro-text-container">
-                            <h2 class="room-intro-title sand05 text-[4.8vh]">
-                                Great Value <span class="sand05">Budget Accommodation</span>
-                            </h2>
-                            <div>
-                                <button class="button spinnaker mb-[2vh]">Book Now</button>
-                            </div>
-                            <p class="room-intro-description">
-                                Our standard units have been partially renovated and feature the same amazing ocean
-                                views.
-                                All are clean tidy and comfortable.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="assets/BUDGET-001.jpg" alt="Smart Website Builder"
-                                class="room-intro-img h-[40vh] w-[40vw]" />
-                        </div>
-                    </div>
-                    <!-- CAROUSEL ITEM 4 -->
-                    <div class="room-intro-slider-item">
-                        <div class="room-intro-text-container">
-                            <h2 class="room-intro-title sand05 text-[4.8vh]">
-                                Great Value <span class="sand05">Budget Accommodation</span>
-                            </h2>
-                            <div>
-                                <button class="button spinnaker mb-[2vh]">Book Now</button>
-                            </div>
-                            <p class="room-intro-description">
-                                Our standard units have been partially renovated and feature the same amazing ocean
-                                views.
-                                All are clean tidy and comfortable.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="assets/BUDGET-001.jpg" alt="Smart Website Builder"
-                                class="room-intro-img h-[40vh] w-[40vw]" />
-                        </div>
-                    </div>
-                    <!-- Add more carousel items as needed -->
-                </div>
-                <div class="room-intro-slider-controls">
-                    <button class="room-intro-slider-control" id="room_intro_prev">&lt;</button>
-                    <button class="room-intro-slider-control" id="room_intro_next">&gt;</button>
-                </div>
-            </div>
+    <div
+      class="min-h-[100vh] bg-white flex flex-col justify-center items-center overflow-hidden"
+    >
+      <div
+        class="flex flex-col flex-1 w-[90vw] z-10 items-center justify-flex-start pt-[5vh] min-h-full my-[5vh] rounded-[2vh] overflow-hidden"
+        id="roomCarousel"
+      >
+        <div id="imgCarouselText2">
+          <p
+            class="text-[5vh] leading-[0vh] font-bold text-black text-center max-w-[80vw] ml-auto mr-auto p-10 spinnaker border-b-4"
+          >
+            Our Rooms
+          </p>
+          <p
+            class="ml-auto mr-auto text-[2vh] leading-[3vh] font-regular text-black text-center max-w-[100vw] p-10 spinnaker max-w-[80vw]"
+          >
+            Discover our exclusive collection of website templates, each
+            designed to elevate your online presence with style and
+            functionality. Perfect for businesses, personal blogs, or creative
+            portfolios, these templates will make your site stand out.
+          </p>
         </div>
+        <!-- CAROUSEL SLIDER -->
+        <div
+          class="room-intro-slider bg-[#211c16] max-w-[80vw] rounded-[2vh]"
+          id="room_intro_slider_container"
+        >
+          <div class="room-intro-slider-inner">
+            <!-- CAROUSEL ITEM 1 -->
+            <div class="room-intro-slider-item">
+              <div class="room-intro-text-container">
+                <h2 class="room-intro-title sand05 text-[4.8vh]">
+                  Great Value <span class="sand05">Budget Accommodation</span>
+                </h2>
+                <div>
+                  <!-- <button class="button spinnaker mb-[2vh]">Book Now</button> -->
+                </div>
+                <p class="room-intro-description">
+                  Our standard units have been partially renovated and feature
+                  the same amazing ocean views. All are clean tidy and
+                  comfortable.
+                </p>
+                <div class="details-container">
+                  <div class="detail-item">
+                    <span class="detail-label">Details_1:</span>
+                    <span class="detail-value">500</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Details_2:</span>
+                    <span class="detail-value">200</span>
+                  </div>
+                  <button class="view-more-btn">
+                    View More <span>&#8594;</span>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="assets/BUDGET-001.jpg"
+                  alt="Smart Website Builder"
+                  class="room-intro-img h-[40vh] w-[40vw]"
+                />
+              </div>
+            </div>
+            <!-- CAROUSEL ITEM 2 -->
+            <div class="room-intro-slider-item">
+              <div class="room-intro-text-container">
+                <h2 class="room-intro-title sand05 text-[4.8vh]">
+                  Great Value <span class="sand05">Budget Accommodation</span>
+                </h2>
+                <div>
+                  <!-- <button class="button spinnaker mb-[2vh]">Book Now</button> -->
+                </div>
+                <p class="room-intro-description">
+                  Our standard units have been partially renovated and feature
+                  the same amazing ocean views. All are clean tidy and
+                  comfortable.
+                </p>
+                <div class="details-container">
+                  <div class="detail-item">
+                    <span class="detail-label">Details_1:</span>
+                    <span class="detail-value">500</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Details_2:</span>
+                    <span class="detail-value">200</span>
+                  </div>
+                  <button class="view-more-btn">
+                    View More <span>&#8594;</span>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="assets/BUDGET-001.jpg"
+                  alt="Smart Website Builder"
+                  class="room-intro-img h-[40vh] w-[40vw]"
+                />
+              </div>
+            </div>
+            <!-- CAROUSEL ITEM 3 -->
+            <div class="room-intro-slider-item">
+              <div class="room-intro-text-container">
+                <h2 class="room-intro-title sand05 text-[4.8vh]">
+                  Great Value <span class="sand05">Budget Accommodation</span>
+                </h2>
+                <div></div>
+                <p class="room-intro-description">
+                  Our standard units have been partially renovated and feature
+                  the same amazing ocean views. All are clean tidy and
+                  comfortable.
+                </p>
+                <div class="details-container">
+                  <div class="detail-item">
+                    <span class="detail-label">Details_1:</span>
+                    <span class="detail-value">500</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Details_2:</span>
+                    <span class="detail-value">200</span>
+                  </div>
+                  <button class="view-more-btn">
+                    View More <span>&#8594;</span>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="assets/BUDGET-001.jpg"
+                  alt="Smart Website Builder"
+                  class="room-intro-img h-[40vh] w-[40vw]"
+                />
+              </div>
+            </div>
+            <!-- CAROUSEL ITEM 4 -->
+            <div class="room-intro-slider-item">
+              <div class="room-intro-text-container">
+                <h2 class="room-intro-title sand05 text-[4.8vh]">
+                  Great Value <span class="sand05">Budget Accommodation</span>
+                </h2>
+
+                <p class="room-intro-description">
+                  Our standard units have been partially renovated and feature
+                  the same amazing ocean views. All are clean tidy and
+                  comfortable.
+                </p>
+                <div class="details-container">
+                  <div class="detail-item">
+                    <span class="detail-label">Details_1:</span>
+                    <span class="detail-value">500</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Details_2:</span>
+                    <span class="detail-value">200</span>
+                  </div>
+                  <button class="view-more-btn">
+                    View More <span>&#8594;</span>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="assets/BUDGET-001.jpg"
+                  alt="Smart Website Builder"
+                  class="room-intro-img h-[40vh] w-[40vw]"
+                />
+              </div>
+            </div>
+            <!-- Add more carousel items as needed -->
+          </div>
+          <div class="room-intro-slider-controls">
+            <button class="room-intro-slider-control" id="room_intro_prev">
+              &lt;
+            </button>
+            <button class="room-intro-slider-control" id="room_intro_next">
+              &gt;
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- INFO-TEXT -->
-    <div class="min-h-[30vh] bg-white flex flex-col justify-center items-center">
-        <div class="w-4/5 p-[5vh] lines opacity-60 steps" id="steps">
-            <p class="text-[3vh] text-center spinnaker sand09 font-bold" id="infoText">
+    <div
+      class="min-h-[30vh] bg-white flex flex-col justify-center items-center"
+    >
+      <div class="w-4/5 p-[5vh] lines opacity-60 steps" id="steps">
+        <div class="flex flex-row w-full justify-center">
+          <div class="stats-container">
+            <div class="stat-item">
+              <i class="fa-solid fa-building"></i>
+
+              <span>Homes Built:</span>
+              <div class="counter" data-target="89">0</div>
+            </div>
+            <div class="stat-item">
+              <i class="fab fa-users"></i>
+              <span>Guests Served</span>
+              <div class="counter" data-target="10">0</div>
+            </div>
+            <div class="stat-item">
+              <i class="fa-solid fa-calendar"></i>
+              <span>Years Active:</span>
+              <div class="counter" data-target="50">0</div>
+            </div>
+            <div class="stat-item">
+              <i class="fa-solid fa-door-open"></i>
+              <span class="min-h-[4vh]">Rooms:</span>
+              <div class="counter" data-target="75">0</div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
+    <!-- Best Deal Section -->
+    <div class="best-deal-container">
+      <div class="best-deal-content">
+        <div class="best-deal-animation-box" id="lottie-animation"></div>
+        <div class="best-deal-info-box">
+          <h1 class="best-deal-title">Grab The Best Deal</h1>
+          <p class="best-deal-text">
+            Call us on <strong class="best-deal-phone">07 5443 1637</strong> to
+            get today’s special prices on accommodation at Maroochy Sands
+            holiday apartments located in Queensland’s beautiful Sunshine Coast!
+          </p>
+          <button class="best-deal-call-now">Call Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial Section -->
+    <div class="testimonial-carousel-container">
+      <div class="testimonial-carousel">
+        <div class="testimonial-carousel-item">
+          <img src="assets/Maroochy-002.png" alt="House" />
+          <div class="testimonial-carousel-content">
+            <h2>Jane’s <strong>Home</strong> in Sydney.</h2>
+            <h3>Testimonial</h3>
+            <p>
+              Here we build dreams into reality. With over [X] years of
+              experience in the construction industry, we pride ourselves on
+              delivering top-notch quality, innovation, and reliability in every
+              project we undertake.
+            </p>
+            <div class="testimonial-details">
+              <div class="detail-item">
+                <span class="detail-label">Details 1:</span>
+                <span class="detail-value">500</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Details 2:</span>
+                <span class="detail-value">200</span>
+              </div>
+            </div>
+            <button class="testimonial-build-button">Let's Build</button>
+          </div>
+        </div>
+        <!-- Repeat above block for additional items -->
+        <div class="testimonial-carousel-item">
+          <img src="assets/Maroochy-002.png" alt="House" />
+          <div class="testimonial-carousel-content">
+            <h2>Jane’s <strong>Luxury Room</strong> Stay.</h2>
+            <h3>Testimonial</h3>
+            <p>
+              Here we build dreams into reality. With over [X] years of
+              experience in the construction industry, we pride ourselves on
+              delivering top-notch quality, innovation, and reliability in every
+              project we undertake.
+            </p>
+            <div class="testimonial-details">
+              <div class="detail-item">
+                <span class="detail-label">Details 1:</span>
+                <span class="detail-value">500</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Details 2:</span>
+                <span class="detail-value">200</span>
+              </div>
+            </div>
+            <button class="testimonial-build-button">Let's Build</button>
+          </div>
+        </div>
+        <!-- Repeat above block for additional items -->
+        <div class="testimonial-carousel-item">
+          <img src="assets/Maroochy-002.png" alt="House" />
+          <div class="testimonial-carousel-content">
+            <h2>Jane’s <strong>Luxury Room</strong> Stay.</h2>
+            <h3>Testimonial</h3>
+            <p>
+              Here we build dreams into reality. With over [X] years of
+              experience in the construction industry, we pride ourselves on
+              delivering top-notch quality, innovation, and reliability in every
+              project we undertake.
+            </p>
+            <div class="testimonial-details">
+              <div class="detail-item">
+                <span class="detail-label">Details 1:</span>
+                <span class="detail-value">500</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Details 2:</span>
+                <span class="detail-value">200</span>
+              </div>
+            </div>
+            <button class="testimonial-build-button">Let's Build</button>
+          </div>
+        </div>
+        <!-- Repeat above block for additional items -->
+        <div class="testimonial-carousel-item">
+          <img src="assets/Maroochy-002.png" alt="House" />
+          <div class="testimonial-carousel-content">
+            <h2>Jane’s <strong>Luxury Room</strong> Stay.</h2>
+            <h3>Testimonial</h3>
+            <p>
+              Here we build dreams into reality. With over [X] years of
+              experience in the construction industry, we pride ourselves on
+              delivering top-notch quality, innovation, and reliability in every
+              project we undertake.
+            </p>
+            <div class="testimonial-details">
+              <div class="detail-item">
+                <span class="detail-label">Details 1:</span>
+                <span class="detail-value">500</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Details 2:</span>
+                <span class="detail-value">200</span>
+              </div>
+            </div>
+            <button class="testimonial-build-button">Let's Build</button>
+          </div>
+        </div>
+        <!-- Repeat above block for additional items -->
+        <div class="testimonial-carousel-item">
+          <img src="assets/Maroochy-002.png" alt="House" />
+          <div class="testimonial-carousel-content">
+            <h2>Jane’s <strong>Luxury Room</strong> Stay.</h2>
+            <h3>Testimonial</h3>
+            <p>
+              Here we build dreams into reality. With over [X] years of
+              experience in the construction industry, we pride ourselves on
+              delivering top-notch quality, innovation, and reliability in every
+              project we undertake.
+            </p>
+            <div class="testimonial-details">
+              <div class="detail-item">
+                <span class="detail-label">Details 1:</span>
+                <span class="detail-value">500</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Details 2:</span>
+                <span class="detail-value">200</span>
+              </div>
+            </div>
+            <button class="testimonial-build-button">Let's Build</button>
+          </div>
+        </div>
+        <!-- Repeat above block for additional items -->
+        <div class="testimonial-carousel-item">
+          <img src="assets/Maroochy-002.png" alt="House" />
+          <div class="testimonial-carousel-content">
+            <h2>Jane’s <strong>Luxury Room</strong> Stay.</h2>
+            <h3>Testimonial</h3>
+            <p>
+              Here we build dreams into reality. With over [X] years of
+              experience in the construction industry, we pride ourselves on
+              delivering top-notch quality, innovation, and reliability in every
+              project we undertake.
+            </p>
+            <div class="testimonial-details">
+              <div class="detail-item">
+                <span class="detail-label">Details 1:</span>
+                <span class="detail-value">500</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Details 2:</span>
+                <span class="detail-value">200</span>
+              </div>
+            </div>
+            <button class="testimonial-build-button">Let's Build</button>
+          </div>
+        </div>
+        <!-- Add more testimonial-carousel-item blocks as needed -->
+        <!-- DONT FORGET TO EDIT CSS WHEN UPDATING CAROUSELS -->
+      </div>
+      <button
+        class="testimonial-carousel-control prev"
+        onclick="prevTestimonial()"
+      >
+        &#10094;
+      </button>
+      <button
+        class="testimonial-carousel-control next"
+        onclick="nextTestimonial()"
+      >
+        &#10095;
+      </button>
+    </div>
+
+    <!-- PARTNERS SECTION -->
+    <div class="partners-section-container mt-[5vh]">
+      <div class="partners-section">
+        <h2>Our Partners:</h2>
+        <div class="content">
+          <p class="description">
+            Without our partners' support, we wouldn't be able to achieve the
+            high standards of quality and innovation that define our work. Their
+            collaboration and dedication play a crucial role in helping us turn
+            ambitious visions into remarkable realities, ensuring every project
+            is a success from start to finish.
+          </p>
+          <div id="lottie-animation2" class="partners-animation"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHY US -->
+    <div class="why-us-container w-[80vw] flex mx-auto">
+      <div class="why-us-section">
+        <h1 class="why-us-title">Why Us?</h1>
+        <div class="value-section">
+          <div class="value-content">
+            <div>
+              <h2 class="value-title">Our Value Proposition</h2>
+              <p class="value-text">
+                Our objective of value creation, as an investor and developer,
+                has led us to get involved financially in every project we carry
+                out, because we are not simple advisors, we are true partners
+                and we are committed to our customers and investors.
+                <br /><br />
+                The achievement of this goal is made possible thanks to the
+                passion and determination of our teams of experts, in
+                Switzerland and abroad, a high level of creativity and a long
+                experience acquired through the development of a multitude of
+                projects managed over the years through different real estate
+                cycles.
+                <br /><br />
+                The Groupe Capvest adopts a tailor-made approach, taking into
+                account the specificities of each project for optimized
+                solutions. Two key elements define each Capvest project: a
+                strong architectural signature in connection with its
+                environment and an assertive consideration of sustainability.
+              </p>
+            </div>
+            <img src="assets/Why-Us1.png" alt="Image 1" class="value-image" />
+          </div>
+        </div>
+        <div class="philosophy-section">
+          <div class="philosophy-content">
+            <img
+              src="assets/Why-Us1.png"
+              alt="Image 2"
+              class="philosophy-image"
+            />
+            <div class="philosophy-text">
+              <h2 class="philosophy-title text-center mb-[10vh]">
+                Our Philosophy
+              </h2>
+              <h3 class="philosophy-vision-title text-center">Vision</h3>
+              <p class="philosophy-vision-text">
+                We want to develop the real estate of tomorrow through ambitious
+                projects, with a view to creating value and sustainability.
+              </p>
+              <h3 class="philosophy-mission-title text-center mt-[5vh]">
+                Mission
+              </h3>
+              <p class="philosophy-mission-text">
+                With a high level of requirement and always with a view to
+                creating sustainable value, Groupe Capvest supports investors in
+                the real estate sector in Switzerland and abroad in the
+                development of their project, the management of their assets,
+                and by providing them with tailor-made real estate advice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUR VALUES -->
+    <!-- TITLE -->
+    <div>
+      <div
+        class="min-h-[10vh] max-w-[80vw] flex mx-auto items-center justify-center"
+      ></div>
+      <div class="values-container">
+        <div class="values-section">
+          <h1 class="values-title">Our Values</h1>
+          <p class="values-subtitle">
+            Our group identifies and expresses itself on a daily basis through
+            different values:
+          </p>
+          <div class="values-content">
+            <div class="values-column">
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+            </div>
+            <div class="values-column">
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+              <div class="value-item">
+                <div class="dot"></div>
+                <p class="value-text">
+                  <strong>Creativity and value creation</strong>, in the
+                  development of new projects, but also in asset management.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+     <div class="contact-container">
+
+       <div class="contact-section">
+         <h1 class="contact-title">Contact</h1>
+         <div class="contact-content">
+           <div class="contact-form">
+             <label for="email">Email</label>
+             <input type="email" id="email" name="email" placeholder="Email" />
+             <label for="name">Name</label>
+             <input type="text" id="name" name="name" placeholder="Name" />
+             <label for="message">Message</label>
+             <textarea
+               id="message"
+               name="message"
+               placeholder="Message"
+             ></textarea>
+           </div>
+           <div class="contact-info">
+             <h2>Location</h2>
+             <img
+               src="path/to/your/image.png"
+               alt="Location Map"
+               class="location-map"
+             />
+             <h2>Socials</h2>
+             <div class="social-icons">
+               <img src="path/to/icon-instagram.png" alt="Instagram" />
+               <img src="path/to/icon-facebook.png" alt="Facebook" />
+               <img src="path/to/icon-twitter.png" alt="Twitter" />
+             </div>
+             <div class="contact-details">
+               <p><strong>Phone:</strong> +61-4045486</p>
+               <p><strong>Email:</strong> +61-4045486</p>
+               <p>
+                 <strong>Location:</strong> Random, Location. st, City, State,
+                 Country, PostCode
+               </p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+    <!-- BUFFEER -->
+
     <div class="min-h-[100vh] bg-teal-950">
-        <!-- Additional content -->
+      <!-- Additional content -->
     </div>
 
     <!-- SCRIPTS -->
@@ -182,8 +724,11 @@
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- LOTTIE -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
     <!-- USER SCRIPT -->
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
